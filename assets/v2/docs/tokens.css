@@ -1,0 +1,4 @@
+/* Premium Cinematic V2 — assets only; no external dependencies */
+:root{--fa-navy:#002D47;--fa-petrol:#08667A;--fa-cyan:#21ACC2;--fa-gold:#CD8A29;--fa-rust:#C2521D;--fa-sand:#EED4AC;--fa-ivory:#FFF7E7;--fa-heading:Georgia,'Times New Roman',serif;--fa-body:Arial,sans-serif;--fa-radius:24px;--fa-shadow:0 24px 70px rgba(0,24,41,.16)}
+.fa-sponsor-slot{display:grid;place-items:center;min-height:120px;border:1px dashed var(--fa-gold);border-radius:var(--fa-radius);background:var(--fa-ivory);color:var(--fa-navy)}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

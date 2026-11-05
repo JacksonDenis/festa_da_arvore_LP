@@ -1,0 +1,53 @@
+{
+  "direction": "Premium Cinematic V2",
+  "coordinate_system": "percent of hero canvas",
+  "layers": [
+    {
+      "z": 0,
+      "asset": "hero/hero_background_clean.png",
+      "fit": "cover",
+      "object_position": "70% 40%"
+    },
+    {
+      "z": 1,
+      "type": "CSS gradient",
+      "value": "linear-gradient(90deg,rgba(0,24,41,.82),transparent 72%)"
+    },
+    {
+      "z": 2,
+      "asset": "hero/hero_light_overlay.svg",
+      "center_percent": [
+        76,
+        32
+      ],
+      "opacity": 0.35,
+      "pointer_events": "none"
+    },
+    {
+      "z": 3,
+      "asset": "hero/hero_jesus_recorte.png",
+      "width_percent": 60,
+      "right_percent": -5,
+      "top_percent": 8,
+      "fit": "contain"
+    },
+    {
+      "z": 4,
+      "asset": "existing/assinatura_fundo_escuro.png",
+      "area": "left 4–42%"
+    }
+  ],
+  "mobile": {
+    "approach": "stack text above scenic figure; disable parallax; preserve face and use full image contain",
+    "background_position": "70% center",
+    "recommended_background": "web/hero/hero_background_clean-720.webp",
+    "foreground": "web/hero/hero_jesus_recorte-720.webp",
+    "text_overlay": "linear-gradient(180deg,rgba(0,24,41,.8),rgba(0,24,41,.28) 38%,transparent 70%)"
+  },
+  "motion": {
+    "optional": true,
+    "max_travel_px": 12,
+    "respect_prefers_reduced_motion": true
+  },
+  "approval": "composition draft, not a newly approved site mockup"
+}

@@ -1,0 +1,17 @@
+# Revisão — legibilidade, carrossel e Hero líquido
+
+Solicitação: retirar subtexto dos prêmios, transformar a faixa em carrossel, tornar a mensagem lateral legível e aplicar a interação da referência FLUX no Hero da festa. Arquivo anexado é referência de comportamento, não instrução para substituir a marca, a imagem ou as demais seções por FLUX.
+
+Reference DNA: retrato com deformação viscosa local que segue o pointer; tipografia fica num plano nítido, por cima. A especificação descreve pressão/Jacobi, advecção de velocidade e campo escalar e dissipação. Layout e identidade da agência não são adotados. Fontes: texto anexado, arte V2 existente e implementação local; sem referência visual externa adicional disponível nesta solicitação.
+
+Direção antes do código: Concept, presença/luz em movimento ao toque do cursor; Visual Anchor, mesma figura e paisagem V2; Art Direction, deformação breve da arte, texto protegido; Typography Direction, mensagem lateral em serif de 21px sobre navy, sem tracking de microtexto; Color Language, contraste navy/creme com borda dourada; Composition, mesmas camadas e CTAs, mensagem legível à direita desktop e sob a cena mobile; Rhythm, Hero interativo e faixa de frases em loop antes dos três destaques; Motion Language, impulso local seguido de dissipação e carrossel linear de 35s; Signature Moment, fluido revela rastros na paisagem e figura sem deformar texto.
+
+Component mapping: WebGL canvas decorativo → renderiza as mesmas duas imagens do Hero com UVs separados para cover/contain; mensagem lateral → painel de contraste; letreiro → duas trilhas idênticas com pausa acessível. Catálogo da Factory previamente consultado, sem componentes implementados.
+
+Tecnologia justificada por pedido explícito: CSS/parallax não reproduzem advecção e pressão da referência. WebGL nativo, sem biblioteca nova, com float framebuffers, resolução de simulação 192px, 16 Jacobi iterations, draw buffer limitado a 1400px de largura, um quad reutilizado. Imagens locais existentes, sem novas mídias. Canvas só aparece após imagens e framebuffers válidos. Texto/links acima do efeito.
+
+Matriz de motion: Entrance/reveals existentes mantidos; Scroll/stack existentes mantidos; Hover/pointer injeta impulso no fluido; Transitions/dissipação retorna gradualmente ao repouso; Parallax de fundo/figura suspenso quando WebGL está ativo para manter alinhamento; Typography nunca distorcida; Image reveal canvas só após primeiro frame válido; Signature interaction campo viscoso local no Hero. Carrossel automático com botão de pausa e pausa hover/foco. Reduced motion: carrossel em linha estática e arte original sem GPU. Mobile sem fluido/pinning pesado, sem captura de touch/scroll. Não é uma mudança geral do site para SIGNATURE; é uma interação visual delimitada autorizada pelo usuário.
+
+Fallback/energia: erro de contexto/shader/imagem/FBO, movimento reduzido ou viewport mobile → composição HTML/CSS original; loop líquido para quando a trilha dissipa, Hero sai da viewport ou aba fica oculta. Redimensionamento reconstrói FBOs e UVs. pagehide libera recursos. Nenhum segredo, formulário ou integração alterado.
+
+Verificar: texto removido, carrossel/pausa, contraste real da frase, quadro estático versus canvas, deformação após pointer e dissipação, resize, contexto perdido e reduced/mobile, console, overflow e performance local. Coleta e publicação continuam adiadas pelo usuário.

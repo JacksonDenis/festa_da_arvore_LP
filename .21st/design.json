@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Festa da Árvore 2026",
+    "productType": "Landing page de evento",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node",
+      "SQLite"
+    ]
+  },
+  "sources": {
+    "tokens": [],
+    "components": [],
+    "assets": [],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "mixed",
+    "colors": {
+      "navy": "#002f46",
+      "gold": "#d3922d",
+      "cream": "#f5edda"
+    },
+    "typography": {},
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "unknown"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [
+    "Preservar mockup original + Hero V2 aprovado",
+    "Marcas canônicas otimizadas sem redesenho",
+    "Coleta desligada até integrações e política",
+    "Sem bibliotecas de motion: CSS e APIs nativas",
+    "Revis?o solicitada: tr?s cap?tulos sticky com sobreposi??o/perspectiva + sete pr?mios em grade",
+    "Letreiro ligado ao scroll, parallax e brilho no t?tulo com fallback mobile/reduced; sem depend?ncias novas",
+    "Nova solicita??o: Hero com WebGL l?quido nativo, sem distorcer texto; fallback mobile/reduced/GPU",
+    "Frase lateral ampliada sobre navy; subtexto dos pr?mios removido; carrossel cont?nuo com pausa",
+    "Contato WhatsApp em navy/dourado: pill editorial no desktop e barra de impacto no mobile, com pulso breve, toque responsivo e reduced motion"
+  ],
+  "evidence": [],
+  "generatedAt": "2026-10-14T22:46:11.157Z"
+}

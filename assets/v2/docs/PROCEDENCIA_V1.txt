@@ -1,0 +1,22 @@
+FESTA DA ÁRVORE 2026 — EU SOU, AQUELE QUE SOU
+Êxodo 3:14
+
+CONTEÚDO
+01: marcas em SVG; 02: mesmas marcas em PNG transparente.
+03: símbolos, ramo, sol, ondas, paisagem geométrica e frase em SVG.
+04: mesmas peças em PNG. Todos os PNG renderizados dos vetores têm 4.000 pixels de largura, com 300 dpi nos metadados.
+05: fundo sem texto em resolução nativa, ampliação 6.000 × 6.000, arte com título em 6.000 × 6.000 e post 2.160 × 2.160.
+06: referência escolhida, paleta aproximada, inventário e este guia.
+
+PROCEDÊNCIA E FIDELIDADE
+A referência enviada é uma prancha rasterizada com mockups. Este pacote é uma reconstrução baseada nela, não uma extração de originais editáveis.
+Imagem de fundo e símbolos foram recriados por IA. Os símbolos foram posteriormente vetorizados em curvas reais; textos foram recompostos e convertidos em curvas. Ondas, sol e paisagem geométrica são redesenhos de apoio. A tipografia usa Times New Roman Bold e Arial Bold convertidas em curvas; não é identificação exata da fonte da referência.
+Diferenças de desenho, enquadramento, rosto, tipografia e cor são possíveis. A referência original fica incluída para comparação. Os mockups de camiseta, ecobag, palco, garrafa e cordão são exemplos de aplicação; não são moldes de fabricação e não foram apresentados como artes finais desses produtos.
+
+IMPRESSÃO
+SVG é vetor verdadeiro: contém curvas, não fotografias embutidas. Pode ser ampliado sem pixelização. Abra no Illustrator, Inkscape ou CorelDRAW e exporte em PDF conforme a gráfica.
+PNG transparente: ideal para DTF, composições e materiais digitais. 4.000 pixels equivalem a 33,9 cm a 300 dpi ou 67,7 cm a 150 dpi.
+Fundo nativo gerado: 1.254 × 1.254 pixels. Versão 6.000 pixels é ampliação por interpolação; ela não cria detalhe fotográfico nativo novo. A 300 dpi, 6.000 pixels equivalem a 50,8 cm; a 150 dpi, 101,6 cm. Para painéis grandes, avalie distância de observação e prova física com a gráfica.
+Arquivos usam RGB/sRGB. A gráfica deve converter para o perfil CMYK de sua máquina e substrato. Confirme dourado e azul em prova; dourado da arte é cor simulada, não tinta metálica.
+Use assinatura_fundo_escuro sobre superfícies azul-escuras; assinatura_uma_cor para processos com tinta única. Símbolos coloridos exigem prova antes de bordado ou gravação.
+Sangria, corte e medidas específicas dependem do fornecedor. Não há medidas de banner, camiseta ou garrafa aprovadas neste pedido; portanto as artes são masters reutilizáveis, sem gabaritos de corte.

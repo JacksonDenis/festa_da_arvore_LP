@@ -1,0 +1,29 @@
+const menuButton=document.querySelector('.menu-toggle'),menu=document.querySelector('#menu');
+function closeMenu(){menu.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}
+menuButton.addEventListener('click',()=>{const open=menu.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open))});
+menu.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.classList.contains('open')){closeMenu();menuButton.focus()}});
+const form=document.querySelector('#lead-form'),fields=document.querySelector('#lead-fields'),status=document.querySelector('#form-status'),availability=document.querySelector('#availability');
+const whatsappFloat=document.querySelector('.whatsapp-float'),whatsappNumber='5585985741485';
+let ready=false,sending=false,submissionKey=crypto.randomUUID();
+function feedback(text,state){status.textContent=text;status.dataset.state=state;status.focus()}
+function whatsappUrl(data){const message=[
+ 'Olá! Tenho interesse na Festa da Árvore 2026.',
+ '',
+ `Nome: ${data.fullName.trim()}`,
+ `Meu WhatsApp: ${data.whatsapp.trim()}`,
+ `E-mail: ${data.email.trim()||'Não informado'}`,
+ `Quantidade de cartelas: ${data.quantity}`,
+ `Mensagem: ${data.message.trim()||'Não informada'}`,
+ '',
+ 'Entendo que este contato não compra, reserva ou emite a cartela.'
+].join('\n');return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`}
+function openWhatsApp(url){window.open(url,'_blank','noopener,noreferrer')}
+fetch('/api/config').then(r=>{if(!r.ok)throw Error();return r.json()}).then(c=>{ready=c.leadsEnabled===true;availability.textContent=ready?'Ao enviar, registramos seu interesse e abrimos a conversa no WhatsApp.':'Ao enviar, abriremos o WhatsApp com seus dados. Confira a mensagem e toque em Enviar.'}).catch(()=>{availability.textContent='Ao enviar, abriremos o WhatsApp com seus dados. Confira a mensagem e toque em Enviar.'});
+function validate(data){const errors={};if(data.fullName.trim().length<3||data.fullName.length>120)errors.fullName='Informe seu nome completo (3 a 120 caracteres).';const phone=data.whatsapp.replace(/\D/g,'').replace(/^55(?=\d{10,11}$)/,'');if(!/^[1-9]{2}(?:[2-5]\d{7}|9\d{8})$/.test(phone))errors.whatsapp='Informe um telefone brasileiro válido com DDD.';if(data.email&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email))errors.email='Confira o endereço de e-mail.';if(!Number.isInteger(Number(data.quantity))||Number(data.quantity)<1||Number(data.quantity)>999)errors.quantity='Escolha uma quantidade de 1 a 999.';if(data.message.length>1000)errors.message='Use até 1.000 caracteres.';if(!data.consent)errors.consent='Confirme a ciência sobre o uso dos seus dados.';return errors}
+function showErrors(errors){for(const name of ['fullName','whatsapp','email','quantity','message','consent']){const input=form.elements[name],error=document.getElementById(name+'-error');error.textContent=errors[name]||'';input.setAttribute('aria-invalid',errors[name]?'true':'false');if(errors[name])input.setAttribute('aria-describedby',error.id);else input.removeAttribute('aria-describedby')}const first=Object.keys(errors)[0];if(first)form.elements[first].focus()}
+form.addEventListener('submit',async e=>{e.preventDefault();if(sending)return;const fd=new FormData(form),data=Object.fromEntries(fd);data.consent=fd.has('consent');data.quantity=Number(data.quantity);const errors=validate(data);showErrors(errors);if(Object.keys(errors).length){status.textContent='Confira os campos indicados.';status.dataset.state='error';return}const url=whatsappUrl(data);openWhatsApp(url);if(!ready){feedback('A conversa foi aberta. Confira os dados e toque em Enviar no WhatsApp.','success');form.reset();submissionKey=crypto.randomUUID();return}sending=true;fields.disabled=true;form.setAttribute('aria-busy','true');const button=form.querySelector('button[type=submit]');button.textContent='Registrando seu interesse…';status.textContent='';
+try{const response=await fetch('/api/leads',{method:'POST',headers:{'Content-Type':'application/json','Idempotency-Key':submissionKey},body:JSON.stringify(data),signal:AbortSignal.timeout(20000)});const result=await response.json();if(!response.ok){if(result.errors)showErrors(result.errors);throw Error(result.message||'Não foi possível registrar agora.')}feedback('Interesse registrado e conversa aberta. Agora toque em Enviar no WhatsApp.','success');form.reset();submissionKey=crypto.randomUUID()}
+catch(error){const detail=error.name==='TimeoutError'?'o servidor demorou para responder':error.message==='Failed to fetch'?'estamos sem conexão com o cadastro':error.message;feedback(`O WhatsApp foi aberto, mas ${detail}. Você ainda pode enviar a mensagem por lá.`,'error')}
+finally{sending=false;fields.disabled=false;form.removeAttribute('aria-busy');button.innerHTML='Enviar interesse e abrir WhatsApp <span aria-hidden="true">↗</span>'}});
+if(whatsappFloat&&'IntersectionObserver'in window){let nearForm=false,overHeroActions=false;const syncWhatsAppVisibility=()=>{const hidden=nearForm||(matchMedia('(max-width:760px)').matches&&overHeroActions);whatsappFloat.classList.toggle('is-near-form',nearForm);whatsappFloat.classList.toggle('is-over-hero-actions',overHeroActions);if(hidden){whatsappFloat.setAttribute('aria-hidden','true');whatsappFloat.tabIndex=-1}else{whatsappFloat.removeAttribute('aria-hidden');whatsappFloat.removeAttribute('tabindex')}};new IntersectionObserver(([entry])=>{nearForm=entry.isIntersecting;syncWhatsAppVisibility()},{threshold:.08}).observe(document.querySelector('.registration'));new IntersectionObserver(([entry])=>{overHeroActions=entry.isIntersecting;syncWhatsAppVisibility()},{threshold:.35}).observe(document.querySelector('.hero-actions'));addEventListener('resize',syncWhatsAppVisibility,{passive:true})}

@@ -1,0 +1,31 @@
+[Unit]
+Description=Festa da Árvore 2026
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=festa-arvore
+Group=festa-arvore
+WorkingDirectory=/opt/festa-da-arvore-2026
+Environment=NODE_ENV=production
+EnvironmentFile=/etc/festa-da-arvore-2026.env
+ExecStart=/usr/bin/node server.mjs
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+ReadWritePaths=/var/lib/festa-da-arvore-2026
+
+[Install]
+WantedBy=multi-user.target

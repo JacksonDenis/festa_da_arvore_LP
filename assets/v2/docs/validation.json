@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "preserved existing hashes",
+    "all image files decode",
+    "10 ordered prize items",
+    "foreground and prizes have alpha transparency",
+    "OG exactly 1200x630",
+    "all preview local links resolve",
+    "web variants do not upscale",
+    "desktop signature does not intersect foreground"
+  ],
+  "asset_count": 92,
+  "pending_not_fabricated": true,
+  "browser_visual_qa": {
+    "desktop_1440": "passed; 10 cards, no broken images, no horizontal overflow, foreground toggle works",
+    "narrow_view_500": "passed; no broken images or horizontal overflow",
+    "mobile_390": "not yet recorded"
+  }
+}

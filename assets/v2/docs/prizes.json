@@ -1,0 +1,122 @@
+[
+  {
+    "order": 1,
+    "name": "Bicicleta elétrica",
+    "image": "prizes/01_bicicleta_eletrica.png",
+    "web480": "web/prizes/01_bicicleta_eletrica-480.webp",
+    "web960": "web/prizes/01_bicicleta_eletrica-960.webp",
+    "alt": "Imagem ilustrativa de bicicleta elétrica",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 2,
+    "name": "Um salário mínimo",
+    "image": "prizes/02_salario_minimo.png",
+    "web480": "web/prizes/02_salario_minimo-480.webp",
+    "web960": "web/prizes/02_salario_minimo-960.webp",
+    "alt": "Imagem ilustrativa de um salário mínimo",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 3,
+    "name": "Geladeira",
+    "image": "prizes/03_geladeira.png",
+    "web480": "web/prizes/03_geladeira-480.webp",
+    "web960": "web/prizes/03_geladeira-960.webp",
+    "alt": "Imagem ilustrativa de geladeira",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 4,
+    "name": "Fogão",
+    "image": "prizes/04_fogao.png",
+    "web480": "web/prizes/04_fogao-480.webp",
+    "web960": "web/prizes/04_fogao-960.webp",
+    "alt": "Imagem ilustrativa de fogão",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 5,
+    "name": "Televisão",
+    "image": "prizes/05_televisao.png",
+    "web480": "web/prizes/05_televisao-480.webp",
+    "web960": "web/prizes/05_televisao-960.webp",
+    "alt": "Imagem ilustrativa de televisão",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 6,
+    "name": "Celular",
+    "image": "prizes/06_celular.png",
+    "web480": "web/prizes/06_celular-480.webp",
+    "web960": "web/prizes/06_celular-960.webp",
+    "alt": "Imagem ilustrativa de celular",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 7,
+    "name": "Ventilador",
+    "image": "prizes/07_ventilador.png",
+    "web480": "web/prizes/07_ventilador-480.webp",
+    "web960": "web/prizes/07_ventilador-960.webp",
+    "alt": "Imagem ilustrativa de ventilador",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 8,
+    "name": "Liquidificador",
+    "image": "prizes/08_liquidificador.png",
+    "web480": "web/prizes/08_liquidificador-480.webp",
+    "web960": "web/prizes/08_liquidificador-960.webp",
+    "alt": "Imagem ilustrativa de liquidificador",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 9,
+    "name": "Cestão",
+    "image": "prizes/09_cestao.png",
+    "web480": "web/prizes/09_cestao-480.webp",
+    "web960": "web/prizes/09_cestao-960.webp",
+    "alt": "Imagem ilustrativa de cestão",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  },
+  {
+    "order": 10,
+    "name": "Kit Vida Nova (Bíblia, terço e blusa)",
+    "image": "prizes/10_kit_vida_nova.png",
+    "web480": "web/prizes/10_kit_vida_nova-480.webp",
+    "web960": "web/prizes/10_kit_vida_nova-960.webp",
+    "alt": "Imagem ilustrativa de kit vida nova (bíblia, terço e blusa)",
+    "illustrative": true,
+    "confirmed_brand": null,
+    "confirmed_model": null,
+    "disclaimer": "Imagem ilustrativa. Marca, modelo e composição sujeitos à confirmação da organização."
+  }
+]

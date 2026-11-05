@@ -1,0 +1,1636 @@
+{
+  "schemaVersion": "1.1",
+  "revision": "v5",
+  "status": "BLUEPRINT_APPROVED_READY_FOR_BUILD_HANDOFF",
+  "approval": {
+    "creativeDirection": "APPROVED: PREMIUM CINEMATIC V2",
+    "desktopMockup": "APPROVED: original landing page mockup; V2 hero composition and illustrative prize images subsequently approved",
+    "implementation": "not_started",
+    "handoff": "READY: user requested Handoff; production compliance/document verification not completed"
+  },
+  "project": {
+    "name": "Festa da Árvore 2026",
+    "mode": "CREATE",
+    "level": "PREMIUM",
+    "siteType": "Landing Page de evento e captação de leads",
+    "language": "pt-BR",
+    "organizer": "Grupo de Oração Renascer em Cristo",
+    "primaryGoal": "Informar sobre o evento e captar interessados em cartelas, encaminhando os leads a vendedores.",
+    "audience": {
+      "confirmedDefinition": "Público geral, famílias e comunidade",
+      "scope": "Evento aberto ao público geral, com comunicação acolhedora para famílias e comunidade; sem restringir a participação a membros da Renascer em Cristo.",
+      "approvalStatus": "CONFIRMED",
+      "confirmedBy": "Usuário na conversa durante a etapa BLUEPRINT"
+    },
+    "primaryCTA": {
+      "label": "Tenho interesse na cartela",
+      "target": "#cadastro",
+      "type": "lead_capture"
+    },
+    "creativeVariant": "Premium Cinematic V2 — Presença que Transforma",
+    "publicationStrategy": {
+      "release1": "site principal sem seção visível de patrocinadores",
+      "release2": "ativar patrocinadores após receber logomarcas e autorizações"
+    },
+    "leadRecipient": {
+      "displayName": "Maninha",
+      "whatsappE164": "+5585985741485",
+      "whatsappDigits": "5585985741485",
+      "email": "jackson.denis@live.com",
+      "channelOwnership": "fornecido pelo usuário; validar acesso e permissões na integração"
+    },
+    "versionNotes": "Aprovação do pacote de assets V2 e da composição em camadas confirmada pelo usuário."
+  },
+  "event": {
+    "theme": "Eu Sou Aquele Que Sou",
+    "biblicalReference": "Êxodo 3:14",
+    "institutionalMessage": "Um povo plantando vida para um amanhã mais cheio da presença de Deus.",
+    "date": "2026-12-05",
+    "time": "19:00",
+    "timezone": "PENDING: cidade/UF para assegurar fuso e mapa",
+    "venue": "Casa de Missão Renascer em Cristo",
+    "address": {
+      "street": "Rua Dr. Procópio",
+      "number": "1154",
+      "neighborhood": "Aracapé",
+      "city": null,
+      "state": null
+    },
+    "ticket": {
+      "type": "cartela de participação do sorteio",
+      "price": 10,
+      "currency": "BRL",
+      "salesChannel": "atendimento posterior com vendedor",
+      "onlinePurchase": false,
+      "leadRegistrationIsParticipation": false
+    },
+    "prizeCount": 10,
+    "prizes": [
+      "Bicicleta Elétrica",
+      "Um salário mínimo",
+      "Geladeira",
+      "Fogão",
+      "Televisão",
+      "Celular",
+      "Ventilador",
+      "Liquidificador",
+      "Cestão",
+      "Kit Vida Nova (Bíblia, terço e blusa)"
+    ],
+    "sourceOfTruth": "Dados extraídos da cartela e confirmados pelo usuário nesta conversa; a arte de identidade determina o estilo visual.",
+    "raffleMechanics": {
+      "raffleMode": "presencial, com retirada física de canhotos no dia do evento",
+      "raffleDate": "2026-12-05",
+      "raffleTime": "PENDING: horário de realização do sorteio durante o evento",
+      "ticketPriceBRL": 10,
+      "ticketStub": {
+        "hasStub": true,
+        "collectedBy": "vendedor no momento da venda",
+        "printedFieldsVisibleInPhoto": [
+          "número da cartela",
+          "nome",
+          "endereço",
+          "telefone"
+        ],
+        "numberOnBothParts": true,
+        "sampleNumberVisible": "1151",
+        "operationalRequirement": "Conferir preenchimento legível de nome e telefone no canhoto antes do recolhimento; preservar relação com número da cartela."
+      },
+      "winnerPresenceRequired": false,
+      "winnerNotification": "Pode ocorrer posteriormente por contato informado no canhoto.",
+      "winnerIdentification": "Número da cartela, nome e telefone registrados no canhoto; procedimento de verificação da identidade para entrega pendente do regulamento oficial.",
+      "onlineDraw": false,
+      "onlineRegistrationIsEntry": false,
+      "openOperationalRules": [
+        "Ordem e horário de sorteio dos dez prêmios e mecanismo para canhotos ilegíveis ou incompletos.",
+        "Prazo, tentativas e canal de comunicação ao vencedor; prazo e condições de retirada/entrega.",
+        "Critérios de comprovação de titularidade e identificação e tratamento de perda da cartela.",
+        "Regulamento oficial/documento de autorização ou parecer jurídico para revisão editorial antes de publicação."
+      ],
+      "legalValidation": {
+        "organizerStatement": "O usuário informou que já há documentação ou validação jurídica disponível.",
+        "documentReviewed": false,
+        "approvalOrAuthorizationVerified": false,
+        "nextAction": "Solicitar regulamento/documento para transcrição fiel das condições; não afirmar autorização sem evidência."
+      },
+      "winningStubDisposition": "O canhoto sorteado é retirado definitivamente e não retorna à urna.",
+      "winningStubReturnsToDraw": false,
+      "sameTicketCanWinMoreThanOnePrize": false,
+      "perTicketPrizeLimit": 1,
+      "ticketVsPersonDistinction": "Limite confirmado é por cartela/canhoto. Não presumir que uma mesma pessoa com cartelas diferentes esteja impedida de receber mais de um prêmio."
+    }
+  },
+  "experience": {
+    "concept": "Presença que Transforma — uma jornada de luz, fé e celebração que aproxima o visitante da mensagem da festa e facilita o contato com um vendedor.",
+    "visualAnchor": {
+      "description": "Jesus de braços abertos sobre paisagem luminosa, com fundo e figura independentes e arte de marca aprovada.",
+      "background": "assets/v2/hero/hero_background_clean.png",
+      "foreground": "assets/v2/hero/hero_jesus_recorte.png",
+      "lightOverlay": "assets/v2/hero/hero_light_overlay.svg",
+      "originalSource": "assets/approved-originals/fundo_sem_texto_nativo.png",
+      "compositionPreview": "assets/v2/preview/hero_composicao.jpg",
+      "approvalStatus": "APPROVED_BY_USER_FOR_PREMIUM_V2",
+      "provenanceNote": "Recorte gerado/derivado, não extração pixel a pixel do fundo original."
+    },
+    "narrative": "Hero cinematográfico em camadas → presença, fé e comunidade → os dez prêmios (bicicleta com maior destaque e revelações sticky moderadas) → como participar / lead → detalhes do encontro → realização; patrocinadores preparados e ocultos na primeira publicação.",
+    "signatureMoment": "No Hero, fundo, luz e personagem revelam profundidade em movimento sutil; a passagem para Presença que Transforma é marcada por luz dourada e ondas da identidade; os prêmios ganham destaque progressivo com sticky moderado, nunca prolongado para dez cartões inteiros.",
+    "motionLanguage": "Scroll-driven motion inspirado na dinâmica editorial do Advogado Premium: camadas em profundidade, revela tipografia, transição de luz e poucos cartões sticky; usar GSAP/ScrollTrigger somente se trouxer ganho e quando compatível com a biblioteca. Respeitar prefers-reduced-motion, limitar parallax a deslocamentos curtos e não bloquear formulário/CTA.",
+    "uxPrinciples": [
+      "CTA de interesse aparente sem interromper a leitura",
+      "comunicação clara de que formulário é lead e não participação efetiva",
+      "informação sobre valor/local fáceis de encontrar",
+      "leitura dos 10 prêmios em mobile",
+      "formulário com estados acessíveis"
+    ],
+    "mobileDirection": "Títulos e CTA antes da cena; personagem em contain sem recortar rosto, fundo cover ajustado, evitar scroll pin prolongado, imagens WebP responsivas; prêmios em grade ou lista legível; sem parallax custoso em mobile; manter primeiro prêmio em destaque e formulário funcional.",
+    "approvedReferenceHierarchy": [
+      "1. Mockup desktop aprovado: assets/approved-originals/festa_da_árvore_2026_presença_que_transforma.png (hierarquia e seções).",
+      "2. Hero V2 e pack ilustrativo aprovados: assets/v2/ (camadas/visuais dos prêmios).",
+      "3. Identidade original enviada: assets/approved-originals/*.png (logos, paleta, elementos).",
+      "4. Advogado Premium: referência de padrão de comportamento somente, sem copiar assets/identidade/código."
+    ]
+  },
+  "visual": {
+    "style": [
+      "cinematográfico na abertura",
+      "editorial premium",
+      "cristão e comunitário",
+      "elementos naturais estilizados",
+      "identidade original preservada",
+      "camadas independentes no Hero",
+      "cards com sticky scroll moderado no desktop",
+      "tipografia com scroll reveal contido"
+    ],
+    "mood": [
+      "acolhedor",
+      "luminoso",
+      "celebrativo",
+      "reverente",
+      "alegre"
+    ],
+    "contrast": "Azul profundo e creme equilibrados; dourado reservado a pontos de ênfase; tipografia sempre legível sobre arte.",
+    "typography": {
+      "display": "serif editorial inspirada na assinatura da marca (nome exato da fonte não confirmado)",
+      "body": "sans-serif contemporânea legível (família a escolher no Build)",
+      "hierarchy": "títulos monumentais na abertura, títulos destacados em seções, texto informativo simples"
+    },
+    "colors": {
+      "source": "amostragem visual aproximada; confirmar tons exatos nos arquivos existentes",
+      "navy": "#002F46",
+      "gold": "#D3922D",
+      "teal": "#087E9A",
+      "terracotta": "#D65B26",
+      "cream": "#F5EDDA"
+    },
+    "imagery": "Usar Hero V2 e imagens ilustrativas dos 10 prêmios aprovados; manter aviso discreto de imagens ilustrativas e sem marcas/modelos confirmados. As versões originais do usuário são referência de fidelidade de marca; não usar elementos do site jurídico como assets.",
+    "motifs": [
+      "luz circular/radiante",
+      "folhas e ramos",
+      "ondas azuis/douradas",
+      "paisagem natural estilizada"
+    ],
+    "antiGeneric": [
+      "não utilizar estética de SaaS ou gradientes roxos",
+      "não trocar a arte de Jesus por foto de banco de imagens",
+      "não usar todos os blocos como cartões idênticos",
+      "não simular patrocinadores como marcas reais",
+      "não fazer sorteio parecer inscrição gratuita automática",
+      "Não transformar o evento em site preto/charcoal jurídico: preservar azul profundo, dourado e creme.",
+      "Não copiar cards de advocacia ou textos do site de referência; adaptar apenas linguagem de profundidade e scroll.",
+      "Não aplicar pin de dez cartões full-screen nem priorizar efeitos sobre rapidez de conversão."
+    ]
+  },
+  "sections": [
+    {
+      "id": "header",
+      "status": "approved_for_creative_handoff",
+      "purpose": "Identidade institucional e navegação direta para informação e conversão.",
+      "experienceBlock": "Barra superior clara/creme sobreposta ou acima do Hero, logo à esquerda; navegação compacta à direita e CTA dourado. Em mobile, menu acessível e CTA visível sem obstruir conteúdo.",
+      "content": {
+        "logoAsset": "marca_secundaria_horizontal.png",
+        "navigation": [
+          {
+            "label": "Sobre",
+            "target": "#sobre"
+          },
+          {
+            "label": "Prêmios",
+            "target": "#premios"
+          },
+          {
+            "label": "Cadastro",
+            "target": "#cadastro"
+          },
+          {
+            "label": "Patrocinadores",
+            "target": "#patrocinadores"
+          },
+          {
+            "label": "Local",
+            "target": "#local"
+          }
+        ],
+        "primaryCTA": {
+          "label": "Quero participar",
+          "target": "#cadastro",
+          "semantics": "abrir formulário de interesse; não concretiza participação no sorteio"
+        },
+        "sponsorsNavPolicy": "Ocultar item de navegação Patrocinadores enquanto a seção estiver desabilitada."
+      },
+      "motion": {
+        "intent": "navegação discreta; header legível em qualquer estado do Hero; nenhum menu que bloqueie o CTA",
+        "mobile": "menu acessível por teclado/toque, foco visível"
+      },
+      "assets": [
+        "assets/approved-originals/marca_secundaria_horizontal.png",
+        "assets/v2/web/brand/"
+      ]
+    },
+    {
+      "id": "hero",
+      "status": "approved_for_creative_handoff",
+      "purpose": "Comunicar o tema espiritual e os dados da festa, oferecer caminhos rápidos para cadastro e prêmios.",
+      "experienceBlock": "Hero desktop com paisagem azul e espaço para texto à esquerda, Jesus recortado à direita, halo/luz atrás do personagem, título real em HTML, informações e dois CTAs visíveis. Preservar composição do mockup inicial e a profundidade do preview V2.",
+      "content": {
+        "eyebrow": "Festa da Árvore 2026",
+        "headline": "Eu Sou Aquele Que Sou",
+        "scripture": "Êxodo 3:14",
+        "supportingText": "Uma noite de alegria, louvor e comunhão para toda a família.",
+        "facts": {
+          "date": "05 de dezembro de 2026",
+          "time": "19h",
+          "venue": "Casa de Missão Renascer em Cristo",
+          "address": "Rua Dr. Procópio, 1154 — Aracapé",
+          "raffleCardPrice": "R$ 10,00"
+        },
+        "primaryCTA": {
+          "label": "Tenho interesse na cartela",
+          "target": "#cadastro"
+        },
+        "secondaryCTA": {
+          "label": "Conheça os 10 prêmios",
+          "target": "#premios"
+        },
+        "institutionalMessage": "Um povo plantando vida para um amanhã mais cheio da presença de Deus."
+      },
+      "motion": {
+        "intent": "reveal editorial do título, parallax mínimo entre fundo e personagem, luz dourada em transição para sobre, sem vídeo obrigatório",
+        "limits": "partir da geometria descrita em docs/hero-layers.json e ajustar visualmente; máximo sugerido de 12px de deslocamento da arte",
+        "reducedMotion": "estático sem perda de leitura",
+        "mobile": "personagem contain, sem cortar rosto, desativar parallax/pinning"
+      },
+      "assets": [
+        "assets/v2/hero/hero_background_clean.png",
+        "assets/v2/hero/hero_jesus_recorte.png",
+        "assets/v2/hero/hero_light_overlay.svg",
+        "assets/approved-originals/assinatura_tipografica.png",
+        "assets/approved-originals/fundo_sem_texto_nativo.png",
+        "assets/v2/docs/hero-layers.json",
+        "assets/v2/web/hero/"
+      ]
+    },
+    {
+      "id": "sobre",
+      "status": "approved_for_creative_handoff",
+      "purpose": "Explicar o significado e o clima da Festa da Árvore, conectando a arte à missão do encontro.",
+      "experienceBlock": "Seção creme com título serifado à esquerda, frase institucional à direita; ornamentos de folha e ondas geométricas em azul/dourado, ritmo editorial e bastante espaço.",
+      "content": {
+        "heading": "Presença que Transforma",
+        "bodyDraft": "A Festa da Árvore é um encontro de fé, solidariedade e comunhão promovido pelo Grupo de Oração Renascer em Cristo. Um momento para reunir famílias, fortalecer laços e celebrar a presença de Deus.",
+        "bodyStatus": "texto de apoio proposto no mockup; revisar com organização antes da publicação",
+        "institutionalMessage": "Um povo plantando vida para um amanhã mais cheio da presença de Deus.",
+        "scripture": "Êxodo 3:14"
+      },
+      "motion": {
+        "intent": "entrada suave em scroll, ondas e luz ligam a abertura à missão; sem animação permanente em blocos de leitura",
+        "reducedMotion": "estático"
+      },
+      "assets": [
+        "assets/approved-originals/identidade_escolhida.png",
+        "assets/v2/decor/ramo.svg",
+        "assets/v2/decor/ondas_claro.svg",
+        "assets/v2/decor/ondas_azul.svg"
+      ]
+    },
+    {
+      "id": "premios",
+      "status": "approved_for_creative_handoff",
+      "purpose": "Apresentar de maneira clara os dez prêmios anunciados na cartela confirmada, sem prometer elegibilidade a partir do formulário.",
+      "experienceBlock": "Título editorial no azul profundo. Bicicleta elétrica com card de destaque; cards de prêmios ganham profundidade e progressão visual inspiradas no sticky scroll da referência, mas limitada a poucos destaques. Todos os 10 itens legíveis sem scroll longo ou efeitos excessivos. Bloco Como Participar com cinco passos conhecidos e chamada para #cadastro.",
+      "content": {
+        "heading": "Concorra a 10 prêmios especiais",
+        "subtext": "Prêmios divulgados na cartela da edição 2026.",
+        "prizes": [
+          {
+            "order": 1,
+            "name": "Bicicleta Elétrica",
+            "confirmed": true,
+            "visualPriority": "featured",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/01_bicicleta_eletrica.png",
+            "web480": "assets/v2/web/prizes/01_bicicleta_eletrica-480.webp",
+            "web960": "assets/v2/web/prizes/01_bicicleta_eletrica-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 2,
+            "name": "Um salário mínimo",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "Valor específico não fixado; utilizar a referência legal aplicável e confirmar no regulamento.",
+            "image": "assets/v2/prizes/02_salario_minimo.png",
+            "web480": "assets/v2/web/prizes/02_salario_minimo-480.webp",
+            "web960": "assets/v2/web/prizes/02_salario_minimo-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 3,
+            "name": "Geladeira",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/03_geladeira.png",
+            "web480": "assets/v2/web/prizes/03_geladeira-480.webp",
+            "web960": "assets/v2/web/prizes/03_geladeira-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 4,
+            "name": "Fogão",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/04_fogao.png",
+            "web480": "assets/v2/web/prizes/04_fogao-480.webp",
+            "web960": "assets/v2/web/prizes/04_fogao-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 5,
+            "name": "Televisão",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/05_televisao.png",
+            "web480": "assets/v2/web/prizes/05_televisao-480.webp",
+            "web960": "assets/v2/web/prizes/05_televisao-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 6,
+            "name": "Celular",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/06_celular.png",
+            "web480": "assets/v2/web/prizes/06_celular-480.webp",
+            "web960": "assets/v2/web/prizes/06_celular-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 7,
+            "name": "Ventilador",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/07_ventilador.png",
+            "web480": "assets/v2/web/prizes/07_ventilador-480.webp",
+            "web960": "assets/v2/web/prizes/07_ventilador-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 8,
+            "name": "Liquidificador",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/08_liquidificador.png",
+            "web480": "assets/v2/web/prizes/08_liquidificador-480.webp",
+            "web960": "assets/v2/web/prizes/08_liquidificador-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 9,
+            "name": "Cestão",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/09_cestao.png",
+            "web480": "assets/v2/web/prizes/09_cestao-480.webp",
+            "web960": "assets/v2/web/prizes/09_cestao-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          },
+          {
+            "order": 10,
+            "name": "Kit Vida Nova (Bíblia, terço e blusa)",
+            "confirmed": true,
+            "visualPriority": "standard",
+            "imageStatus": "approved_illustration_not_actual_product",
+            "notes": "",
+            "image": "assets/v2/prizes/10_kit_vida_nova.png",
+            "web480": "assets/v2/web/prizes/10_kit_vida_nova-480.webp",
+            "web960": "assets/v2/web/prizes/10_kit_vida_nova-960.webp",
+            "imageDisclaimer": "Imagem ilustrativa; marca, modelo, capacidade e composição não confirmados. Não usar ilustração como garantia do item exato."
+          }
+        ],
+        "complianceNote": "Mecânica básica confirmada. Condições de apuração, elegibilidade, premiação e situação legal dependem do regulamento/documentação a conferir antes de publicação.",
+        "cta": {
+          "label": "Tenho interesse na cartela",
+          "target": "#cadastro"
+        },
+        "howToParticipate": {
+          "heading": "Como participar",
+          "steps": [
+            "Entre em contato com um vendedor por meio do cadastro de interesse no site.",
+            "Adquira a cartela de R$ 10,00 diretamente pelo atendimento do vendedor.",
+            "No momento da venda, o vendedor recolhe o canhoto preenchido com os dados de contato.",
+            "No dia 05/12/2026, os canhotos são sorteados presencialmente; o ganhador poderá ser contatado posteriormente.",
+            "Cada canhoto premiado é retirado definitivamente da urna. Assim, uma mesma cartela concorre a apenas um prêmio."
+          ],
+          "importantNote": "O cadastro de interesse no site não equivale à compra de cartela nem garante participação no sorteio.",
+          "legalNote": "Resumo operacional fornecido pelo organizador, sujeito à revisão e complementação do regulamento antes da publicação. Não sugerir que o cadastro gera direito a sorteio.",
+          "winnerPresenceRule": "A presença do vencedor no evento não é obrigatória; o contato poderá ser feito posteriormente por meio dos dados do canhoto.",
+          "winningStubRule": "O canhoto sorteado não volta à urna; cada cartela pode ser premiada no máximo uma vez.",
+          "eligibilityCaveat": "Não comunicar limite de um prêmio por pessoa: a regra confirmada é um prêmio por cartela/canhoto."
+        },
+        "illustrativeNotice": "Imagens meramente ilustrativas. A composição exata dos prêmios deve ser confirmada com a organização.",
+        "salaryMinimumRule": "Não exibir valor numérico para o prêmio de um salário mínimo sem confirmar a referência legal aplicável; imagem simbólica, não comprovação."
+      },
+      "motion": {
+        "intent": "sticky/reveal progressivo no desktop para bicicleta e poucos cartões-chave; evitar sticky para 10 itens inteiros; animação de escala e profundidade contida",
+        "mobile": "sem sticky obrigatório, grade responsiva com 10 itens, todos acessíveis e com alt text",
+        "reducedMotion": "cards estáticos, sem prejuízo à leitura"
+      },
+      "assets": [
+        "assets/v2/prizes/01_bicicleta_eletrica.png",
+        "assets/v2/prizes/02_salario_minimo.png",
+        "assets/v2/prizes/03_geladeira.png",
+        "assets/v2/prizes/04_fogao.png",
+        "assets/v2/prizes/05_televisao.png",
+        "assets/v2/prizes/06_celular.png",
+        "assets/v2/prizes/07_ventilador.png",
+        "assets/v2/prizes/08_liquidificador.png",
+        "assets/v2/prizes/09_cestao.png",
+        "assets/v2/prizes/10_kit_vida_nova.png",
+        "assets/v2/prizes/prize_highlight_bicicleta.png",
+        "assets/v2/docs/prizes.json",
+        "assets/approved-originals/cartela.jpeg"
+      ]
+    },
+    {
+      "id": "cadastro",
+      "status": "approved_for_creative_handoff",
+      "purpose": "Converter interessados em leads e disponibilizá-los ao vendedor, sem vender ou emitir cartelas online.",
+      "experienceBlock": "Área creme com formulário de captação à esquerda, apoio visual derivado dos assets aprovados à direita e CTA dourado; envio persiste o lead e tenta notificar por e-mail e WhatsApp; estados acessíveis de loading, sucesso, erro e falha de entrega parcial.",
+      "content": {
+        "eyebrow": "Cadastre seu interesse",
+        "heading": "Solicite sua cartela",
+        "supportingText": "Preencha seus dados e um vendedor entrará em contato.",
+        "fields": [
+          {
+            "name": "fullName",
+            "label": "Nome completo",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "whatsapp",
+            "label": "WhatsApp",
+            "type": "tel",
+            "required": true,
+            "validation": "validar formato de telefone brasileiro sem assumir DDD"
+          },
+          {
+            "name": "email",
+            "label": "E-mail",
+            "type": "email",
+            "required": false
+          },
+          {
+            "name": "quantity",
+            "label": "Quantidade de cartelas",
+            "type": "integer",
+            "required": true,
+            "min": 1,
+            "validation": "permitir escolher quantidade a partir de 1"
+          },
+          {
+            "name": "message",
+            "label": "Mensagem",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "consent",
+            "label": "Ciência sobre uso de dados para contato do vendedor",
+            "type": "checkbox",
+            "required": true,
+            "status": "texto final de privacidade pendente"
+          }
+        ],
+        "submitCTA": "Quero falar com um vendedor",
+        "disclaimer": "Este é um cadastro de interesse. Ele não reserva, compra ou emite cartela nem garante participação no sorteio.",
+        "successCopyDraft": "Recebemos seu interesse. Um vendedor poderá entrar em contato para orientar os próximos passos.",
+        "errorCopyDraft": "Não foi possível enviar agora. Tente novamente mais tarde.",
+        "privacyNoticeStatus": "PENDING before public launch: controlador, texto de privacidade, base legal e retenção; não coletar dados sem informação apropriada.",
+        "raffleRelationship": "O canhoto é preenchido e recolhido pelo vendedor no momento da venda. Este formulário não cria canhoto ou número e não é inscrição no sorteio.",
+        "notificationTarget": {
+          "name": "Maninha",
+          "whatsappE164": "+5585985741485",
+          "email": "jackson.denis@live.com"
+        },
+        "confirmationRule": "Mensagem de sucesso apenas após confirmação de recebimento seguro do lead no backend; entrega das duas notificações precisa de monitoramento/retry quando assíncrona."
+      },
+      "motion": {
+        "intent": "microinterações de foco, validação, envio e sucesso; manter animação funcional e acessível"
+      },
+      "assets": [
+        "assets/approved-originals/fundo_sem_texto_nativo.png",
+        "assets/v2/decor/ramo.svg"
+      ]
+    },
+    {
+      "id": "patrocinadores",
+      "status": "implementation_pending_assets_hidden_in_release1",
+      "purpose": "Reconhecer e dar visibilidade aos patrocinadores e apoiadores da festa.",
+      "experienceBlock": "Estrutura visual aprovada reservada no código, mas não renderizada na primeira publicação, nem link no menu. Ativar somente com logotipos e aprovação dos patrocinadores, na segunda subida.",
+      "content": {
+        "heading": "Patrocinadores",
+        "supportingText": "Parceiros e apoiadores da Festa da Árvore 2026.",
+        "logos": [],
+        "logoStatus": "PENDING: logos oficiais e, se pertinente, classificação por cotas",
+        "placeholderPolicy": "placeholders apenas em preview interno; nunca publicar como apoiadores reais",
+        "release1Visibility": false,
+        "release2Condition": "logotipos autorizados enviados, categorias/cotas confirmadas se necessárias"
+      },
+      "motion": {
+        "intent": "revelação discreta das marcas; sem animação que prejudique leitura"
+      },
+      "assets": [
+        "PENDING: logomarcas oficiais e direitos de uso",
+        "assets/v2/decor/sponsor_placeholder.svg (somente ambiente interno)"
+      ]
+    },
+    {
+      "id": "local",
+      "status": "approved_for_creative_handoff",
+      "purpose": "Informar dados práticos para comparecimento e facilitar deslocamento.",
+      "experienceBlock": "Bloco de contraste azul profundo com quatro itens de serviço — data, horário, local e valor — e área reservada para mapa real ou link de rotas. O mapa do mockup é ilustrativo, não georreferenciado.",
+      "content": {
+        "heading": "Informações do evento",
+        "dateISO": "2026-12-05",
+        "dateLabel": "05 de dezembro de 2026",
+        "timeLocal": "19:00",
+        "venue": "Casa de Missão Renascer em Cristo",
+        "street": "Rua Dr. Procópio, 1154",
+        "neighborhood": "Aracapé",
+        "city": null,
+        "state": null,
+        "country": "Brasil",
+        "raffleCardPrice": {
+          "amount": 10.0,
+          "currency": "BRL",
+          "display": "R$ 10,00"
+        },
+        "map": {
+          "status": "pending_city_state_or_confirmed_coordinate",
+          "rule": "não criar link/mapa com localização especulativa",
+          "release1Rule": "Sem cidade/UF confirmada, não renderizar mapa ilustrativo, coordenadas inventadas ou link de rota especulativo; exibir endereço textual."
+        },
+        "programming": {
+          "status": "pending_optional",
+          "note": "não apresentar agenda detalhada ou atrações específicas ainda não fornecidas"
+        },
+        "mappingDependency": "Confirmar cidade/UF ou coordenada e validar o destino antes de exibir o mapa."
+      },
+      "motion": {
+        "intent": "foco em legibilidade; nenhum movimento necessário no mapa ou nos dados"
+      },
+      "assets": [
+        "PENDING: link de mapa/URL de localização confirmado"
+      ]
+    },
+    {
+      "id": "footer",
+      "status": "approved_for_creative_handoff",
+      "purpose": "Creditar realização e reforçar marca, contato e canais sociais.",
+      "experienceBlock": "Rodapé creme com ondas da identidade, logo do organizador à esquerda e assinatura do evento ao centro, links sociais à direita; boa hierarquia também no mobile.",
+      "content": {
+        "realization": "Grupo de Oração Renascer em Cristo",
+        "socialLinks": {
+          "instagram": null,
+          "facebook": null,
+          "status": "PENDING: URLs oficiais, não inventar"
+        },
+        "links": {
+          "privacyPolicy": null,
+          "raffleRules": null,
+          "status": "PENDING: links/versões aprovadas"
+        },
+        "rights": "Texto legal e contatos pendentes de confirmação da organização."
+      },
+      "motion": {
+        "intent": "estático ou entrada leve"
+      },
+      "assets": [
+        "assets/approved-originals/logo.png",
+        "assets/approved-originals/marca_secundaria_horizontal.png",
+        "assets/v2/decor/ondas_azul.svg"
+      ]
+    }
+  ],
+  "leadFlow": {
+    "trigger": "form_submit em #cadastro",
+    "steps": [
+      "validar consentimento e campos",
+      "enviar de modo seguro a um endpoint/integrador ainda a definir",
+      "persistir lead de forma auditável e com acesso restrito",
+      "notificar vendedor por e-mail e WhatsApp",
+      "apresentar confirmação de interesse",
+      "vendedor decide canal e continuidade do atendimento"
+    ],
+    "requiredOutputs": [
+      "registro de lead com carimbo de data e status",
+      "notificação e-mail ao vendedor",
+      "notificação WhatsApp ao vendedor",
+      "mensagem de sucesso/erro sem envio duplicado",
+      "registro de entrega/falha das notificações e tentativas controladas de reenvio",
+      "endereço IP minimizado/omitido salvo necessidade legítima e base jurídica definida"
+    ],
+    "notifications": {
+      "email": {
+        "required": true,
+        "recipient": "jackson.denis@live.com",
+        "recipientContactName": "Maninha (destino comercial informado pelo usuário)",
+        "provider": "PENDING_BUILD: serviço de e-mail transacional com autenticação e verificação de envio"
+      },
+      "whatsapp": {
+        "required": true,
+        "recipient": "+5585985741485",
+        "recipientContactName": "Maninha",
+        "transport": "PENDING_BUILD: WhatsApp Business Platform/API ou integrador oficial; verificar consentimento/opt-in, templates, credenciais e regras da Meta",
+        "fallback": "Link wa.me pode servir para contato iniciado pelo visitante, mas não substitui notificação automática do backend."
+      }
+    },
+    "storage": {
+      "required": true,
+      "destination": "PENDING_BUILD: repositório seguro definido pelo implementador junto à organização (banco/CRM/planilha protegida); não expor PII no cliente"
+    },
+    "sellerFollowUp": "o vendedor decide livremente entre WhatsApp, ligação, e-mail ou atendimento presencial",
+    "guarantees": [
+      "cadastro não significa compra",
+      "cadastro não emite nem reserva cartela",
+      "cadastro não garante participação no sorteio"
+    ],
+    "privacyAndSafety": [
+      "informar controlador e finalidade do uso dos dados",
+      "colher ciência/consentimento conforme base jurídica a validar",
+      "não expor dados de clientes no frontend",
+      "proteger envio contra spam e reenvios",
+      "definir retenção e acesso aos dados"
+    ],
+    "notificationConstraints": [
+      "Não afirmar que WhatsApp automático funciona sem credenciais/templates aprovados e teste fim a fim.",
+      "O backend registra lead independentemente de a notificação ocorrer imediatamente; tratar falhas parciais com fila/retry/alerta.",
+      "Nunca enviar mensagem direta via WhatsApp sem canal autorizado e base legal adequada."
+    ]
+  },
+  "assets": [
+    {
+      "id": "original_cartela",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/cartela.jpeg",
+      "source": "conversation",
+      "role": "referência factual",
+      "sha256": "73507a08c0e5523730b513a4b5ff866fb36513544c371a0d60f0fb1b1cd9cc02"
+    },
+    {
+      "id": "original_logo",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/logo.png",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "839e8abf582fc181ac353bd0c774ae61895b7867ad41997efa3b1680db0801d7"
+    },
+    {
+      "id": "original_identidade_escolhida",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/identidade_escolhida.png",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "25388829e2cc62db81b433ddd3cf646ded9e3a45b8f7297e82e2a7171739538b"
+    },
+    {
+      "id": "original_preview_do_pacote",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/preview_do_pacote.jpg",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "79a2848ba6f4c7dad244dd1b0f0bc702c74ebe7d39241544b27a2cb1b118ec5c"
+    },
+    {
+      "id": "original_fundo_sem_texto_nativo",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/fundo_sem_texto_nativo.png",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "6951fb5b4198a0dfdd2846864a57b8258196fd0a3735f9902d923834065c8a8e"
+    },
+    {
+      "id": "original_post_quadrado_2160px",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/post_quadrado_2160px.png",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "7ce48fa9933bc5d87ad0067e9faee0bc59dd92bd6d5bfa7a87c83728a675341e"
+    },
+    {
+      "id": "original_assinatura_tipografica",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/assinatura_tipografica.png",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "fb7dbaede47dfd13646399f4cdb570855ce76154adae12c47d2818a7bb04d91f"
+    },
+    {
+      "id": "original_marca_principal",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/marca_principal.png",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "33e0e96990f56a7380d4ea512f68510e1358227d1a133feb6dc5aec65c0bfa4d"
+    },
+    {
+      "id": "original_marca_secundaria_horizontal",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/marca_secundaria_horizontal.png",
+      "source": "conversation",
+      "role": "marca e identidade originais",
+      "sha256": "c5780e21132ff744d6ae5a8df59be3ab49779a23b6288d299e7806846df4e87f"
+    },
+    {
+      "id": "original_festa_da_árvore_2026_presença_que_transforma",
+      "status": "existing_verified_user_or_approved",
+      "path": "assets/approved-originals/festa_da_árvore_2026_presença_que_transforma.png",
+      "source": "conversation",
+      "role": "mockup aprovado",
+      "sha256": "77dd35dffaca7082b1bdfbb41af7a7bf27721706ea6dfbe07f3605c55a2b5a07"
+    },
+    {
+      "id": "v2_brand_assinatura_fundo_escuro_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/brand/assinatura_fundo_escuro.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 20350
+    },
+    {
+      "id": "v2_brand_assinatura_tipografica_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/brand/assinatura_tipografica.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 20350
+    },
+    {
+      "id": "v2_brand_assinatura_uma_cor_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/brand/assinatura_uma_cor.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 20350
+    },
+    {
+      "id": "v2_brand_marca_principal_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/brand/marca_principal.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 66402
+    },
+    {
+      "id": "v2_brand_marca_secundaria_horizontal_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/brand/marca_secundaria_horizontal.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 60077
+    },
+    {
+      "id": "v2_decor_ondas_azul_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/decor/ondas_azul.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 1771
+    },
+    {
+      "id": "v2_decor_ondas_claro_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/decor/ondas_claro.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 1771
+    },
+    {
+      "id": "v2_decor_paisagem_geometrica_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/decor/paisagem_geometrica.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 555
+    },
+    {
+      "id": "v2_decor_ramo_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/decor/ramo.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 6554
+    },
+    {
+      "id": "v2_decor_sol_radiante_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/decor/sol_radiante.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 5615
+    },
+    {
+      "id": "v2_decor_sponsor_placeholder_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/decor/sponsor_placeholder.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 415
+    },
+    {
+      "id": "v2_docs_hero-layers_json",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/docs/hero-layers.json",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 1474
+    },
+    {
+      "id": "v2_docs_prizes_json",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/docs/prizes.json",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 4599
+    },
+    {
+      "id": "v2_docs_PROCEDENCIA_V1_txt",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/docs/PROCEDENCIA_V1.txt",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 2604
+    },
+    {
+      "id": "v2_docs_tokens_css",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/docs/tokens.css",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 660
+    },
+    {
+      "id": "v2_docs_validation_json",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/docs/validation.json",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 666
+    },
+    {
+      "id": "v2_hero_hero_background_clean_png",
+      "status": "generated_approved",
+      "path": "assets/v2/hero/hero_background_clean.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "hero V2",
+      "sizeBytes": 2318914
+    },
+    {
+      "id": "v2_hero_hero_jesus_recorte_png",
+      "status": "generated_approved",
+      "path": "assets/v2/hero/hero_jesus_recorte.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "hero V2",
+      "sizeBytes": 1378860
+    },
+    {
+      "id": "v2_hero_hero_light_overlay_png",
+      "status": "generated_approved",
+      "path": "assets/v2/hero/hero_light_overlay.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "hero V2",
+      "sizeBytes": 135773
+    },
+    {
+      "id": "v2_hero_hero_light_overlay_svg",
+      "status": "generated_approved",
+      "path": "assets/v2/hero/hero_light_overlay.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "hero V2",
+      "sizeBytes": 345
+    },
+    {
+      "id": "v2_icons_apple-touch-icon_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/apple-touch-icon.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 5154
+    },
+    {
+      "id": "v2_icons_favicon_ico",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/favicon.ico",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 5429
+    },
+    {
+      "id": "v2_icons_favicon_svg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/favicon.svg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 471
+    },
+    {
+      "id": "v2_icons_icon-16_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/icon-16.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 500
+    },
+    {
+      "id": "v2_icons_icon-180_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/icon-180.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 5154
+    },
+    {
+      "id": "v2_icons_icon-192_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/icon-192.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 5499
+    },
+    {
+      "id": "v2_icons_icon-32_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/icon-32.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 972
+    },
+    {
+      "id": "v2_icons_icon-48_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/icon-48.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 1483
+    },
+    {
+      "id": "v2_icons_icon-512_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/icon-512.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 14986
+    },
+    {
+      "id": "v2_icons_site_webmanifest",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/icons/site.webmanifest",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 384
+    },
+    {
+      "id": "v2_prizes_01_bicicleta_eletrica_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/01_bicicleta_eletrica.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 1995879
+    },
+    {
+      "id": "v2_prizes_02_salario_minimo_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/02_salario_minimo.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 1884735
+    },
+    {
+      "id": "v2_prizes_03_geladeira_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/03_geladeira.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 852494
+    },
+    {
+      "id": "v2_prizes_04_fogao_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/04_fogao.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 1353433
+    },
+    {
+      "id": "v2_prizes_05_televisao_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/05_televisao.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 1608405
+    },
+    {
+      "id": "v2_prizes_06_celular_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/06_celular.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 792104
+    },
+    {
+      "id": "v2_prizes_07_ventilador_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/07_ventilador.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 1025564
+    },
+    {
+      "id": "v2_prizes_08_liquidificador_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/08_liquidificador.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 1170218
+    },
+    {
+      "id": "v2_prizes_09_cestao_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/09_cestao.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 2617626
+    },
+    {
+      "id": "v2_prizes_10_kit_vida_nova_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/10_kit_vida_nova.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 2151379
+    },
+    {
+      "id": "v2_prizes_prize_highlight_bicicleta_png",
+      "status": "generated_approved",
+      "path": "assets/v2/prizes/prize_highlight_bicicleta.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "premiação ilustrativa",
+      "sizeBytes": 1771456
+    },
+    {
+      "id": "v2_social_og_image_festa_da_arvore_2026_jpg",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/social/og_image_festa_da_arvore_2026.jpg",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 391297
+    },
+    {
+      "id": "v2_social_og_image_festa_da_arvore_2026_png",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/social/og_image_festa_da_arvore_2026.png",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 1317031
+    },
+    {
+      "id": "v2_web_brand_assinatura_fundo_escuro-320_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/assinatura_fundo_escuro-320.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 15526
+    },
+    {
+      "id": "v2_web_brand_assinatura_fundo_escuro-640_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/assinatura_fundo_escuro-640.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 32740
+    },
+    {
+      "id": "v2_web_brand_assinatura_fundo_escuro-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/assinatura_fundo_escuro-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 51124
+    },
+    {
+      "id": "v2_web_brand_assinatura_tipografica-320_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/assinatura_tipografica-320.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 16494
+    },
+    {
+      "id": "v2_web_brand_assinatura_tipografica-640_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/assinatura_tipografica-640.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 35674
+    },
+    {
+      "id": "v2_web_brand_assinatura_tipografica-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/assinatura_tipografica-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 54922
+    },
+    {
+      "id": "v2_web_brand_logo_renascer-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/logo_renascer-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 35306
+    },
+    {
+      "id": "v2_web_brand_logo_renascer-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/logo_renascer-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 96286
+    },
+    {
+      "id": "v2_web_brand_marca_principal-320_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/marca_principal-320.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 38124
+    },
+    {
+      "id": "v2_web_brand_marca_principal-640_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/marca_principal-640.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 92506
+    },
+    {
+      "id": "v2_web_brand_marca_principal-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/marca_principal-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 151864
+    },
+    {
+      "id": "v2_web_brand_marca_secundaria_horizontal-320_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/marca_secundaria_horizontal-320.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 17104
+    },
+    {
+      "id": "v2_web_brand_marca_secundaria_horizontal-640_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/marca_secundaria_horizontal-640.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 42508
+    },
+    {
+      "id": "v2_web_brand_marca_secundaria_horizontal-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/brand/marca_secundaria_horizontal-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 72342
+    },
+    {
+      "id": "v2_web_hero_fundo_original-1254_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/fundo_original-1254.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 385338
+    },
+    {
+      "id": "v2_web_hero_fundo_original-720_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/fundo_original-720.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 166126
+    },
+    {
+      "id": "v2_web_hero_hero_background_clean-1200_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/hero_background_clean-1200.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 195706
+    },
+    {
+      "id": "v2_web_hero_hero_background_clean-1672_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/hero_background_clean-1672.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 302694
+    },
+    {
+      "id": "v2_web_hero_hero_background_clean-720_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/hero_background_clean-720.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 85828
+    },
+    {
+      "id": "v2_web_hero_hero_jesus_recorte-1200_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/hero_jesus_recorte-1200.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 131104
+    },
+    {
+      "id": "v2_web_hero_hero_jesus_recorte-1672_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/hero_jesus_recorte-1672.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 211330
+    },
+    {
+      "id": "v2_web_hero_hero_jesus_recorte-720_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/hero/hero_jesus_recorte-720.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 59592
+    },
+    {
+      "id": "v2_web_prizes_01_bicicleta_eletrica-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/01_bicicleta_eletrica-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 97784
+    },
+    {
+      "id": "v2_web_prizes_01_bicicleta_eletrica-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/01_bicicleta_eletrica-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 312106
+    },
+    {
+      "id": "v2_web_prizes_02_salario_minimo-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/02_salario_minimo-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 38774
+    },
+    {
+      "id": "v2_web_prizes_02_salario_minimo-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/02_salario_minimo-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 143174
+    },
+    {
+      "id": "v2_web_prizes_03_geladeira-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/03_geladeira-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 12082
+    },
+    {
+      "id": "v2_web_prizes_03_geladeira-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/03_geladeira-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 31312
+    },
+    {
+      "id": "v2_web_prizes_04_fogao-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/04_fogao-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 31182
+    },
+    {
+      "id": "v2_web_prizes_04_fogao-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/04_fogao-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 90756
+    },
+    {
+      "id": "v2_web_prizes_05_televisao-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/05_televisao-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 51548
+    },
+    {
+      "id": "v2_web_prizes_05_televisao-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/05_televisao-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 173340
+    },
+    {
+      "id": "v2_web_prizes_06_celular-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/06_celular-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 13748
+    },
+    {
+      "id": "v2_web_prizes_06_celular-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/06_celular-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 38432
+    },
+    {
+      "id": "v2_web_prizes_07_ventilador-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/07_ventilador-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 46128
+    },
+    {
+      "id": "v2_web_prizes_07_ventilador-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/07_ventilador-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 160436
+    },
+    {
+      "id": "v2_web_prizes_08_liquidificador-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/08_liquidificador-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 36528
+    },
+    {
+      "id": "v2_web_prizes_08_liquidificador-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/08_liquidificador-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 112146
+    },
+    {
+      "id": "v2_web_prizes_09_cestao-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/09_cestao-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 89968
+    },
+    {
+      "id": "v2_web_prizes_09_cestao-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/09_cestao-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 301448
+    },
+    {
+      "id": "v2_web_prizes_10_kit_vida_nova-480_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/10_kit_vida_nova-480.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 57848
+    },
+    {
+      "id": "v2_web_prizes_10_kit_vida_nova-960_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/10_kit_vida_nova-960.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 209038
+    },
+    {
+      "id": "v2_web_prizes_prize_highlight_bicicleta-1100_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/prize_highlight_bicicleta-1100.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 309118
+    },
+    {
+      "id": "v2_web_prizes_prize_highlight_bicicleta-700_webp",
+      "status": "provided_supporting_asset",
+      "path": "assets/v2/web/prizes/prize_highlight_bicicleta-700.webp",
+      "source": "Festa_da_Arvore_2026_Assets_V2_Premium.zip",
+      "role": "suporte visual/técnico da identidade V2",
+      "sizeBytes": 141064
+    },
+    {
+      "id": "sponsors",
+      "status": "required_pending_release2",
+      "role": "logomarcas autorizadas e eventuais categorias de patrocínio",
+      "release": "segunda subida"
+    },
+    {
+      "id": "map",
+      "status": "required_pending",
+      "role": "cidade/UF e coordenadas ou link de mapa validado para mapa/link de rotas"
+    },
+    {
+      "id": "legal",
+      "status": "unverified_requested_to_defer",
+      "role": "regulamento, autorização ou validação jurídica indicada pelo organizador — validação externa não realizada; condicionar publicação a revisão responsável"
+    }
+  ],
+  "constraints": [
+    "Reutilizar assets originais; não recriar nem alterar marcas sem aprovação.",
+    "Mockup é referência visual, não código ou layout fechado pixel-a-pixel.",
+    "Usar nomes confirmados dos 10 prêmios; não atribuir marcas/modelos inexistentes nem valores hipotéticos ao salário mínimo.",
+    "Patrocinadores sem logos reais permanecem placeholders apenas no mockup.",
+    "Formulário é captação de leads, não venda, reserva ou inscrição automática no sorteio.",
+    "Notificações e-mail e WhatsApp exigem integrações aprovadas e credenciais não expostas.",
+    "Sem dados de localização geocodificados inventados; cidade/UF ainda faltam.",
+    "Checar regulamentação, requisitos legais, condições do sorteio e privacidade antes de publicar.",
+    "Responsividade, acessibilidade, performance, reduced motion e validação dos envios são obrigatórias.",
+    "Programação detalhada e atrações específicas não foram fornecidas; não inventá-las.",
+    "A comunicação deve acolher público geral, famílias e comunidade, sem supor exigência de vínculo com igreja ou pertencimento religioso.",
+    "Ganhador não precisa comparecer ao evento; pode ser contatado depois usando dados no canhoto. Não presumir prazo nem critérios de entrega sem regulamento.",
+    "O canhoto premiado é retirado definitivamente. Uma cartela não concorre novamente; não atribuir limite de um prêmio por pessoa sem regra explícita.",
+    "Seção patrocinadores oculta no release 1, sem logos fictícios nem link de navegação ativo.",
+    "Preservar assets do mockup e marcas originais do usuário como fonte de identidade; V2 em camadas e prêmio ilustrativo são evolução aprovada.",
+    "Não copiar texto, retratos, identidade, código nem ativos do site Advogado Premium; só interpretar padrões de motion e composição.",
+    "Sem vídeo obrigatório, WebGL nem preloaders demorados; respeitar mobile, acessibilidade e reduced motion.",
+    "Não apresentar formulário de interesse como aquisição de cartela, sorteio digital ou participação automática.",
+    "Integração WhatsApp automática depende de canal e credenciais aprovadas; não considerar concluída com simples link wa.me."
+  ],
+  "handoffReadiness": {
+    "status": "READY_FOR_CREATIVE_HANDOFF",
+    "readinessSummary": "Conceito, público, CTA, identidade, mockup, Hero Premium V2, pack ilustrativo de dez prêmios, conteúdo e motion definidos e aprovados. Etapas técnicas/operacionais documentadas como pendências, não inventadas.",
+    "criticalBeforeHandoff": [],
+    "neededBeforeBuildOrLaunch": [
+      {
+        "item": "Configurar e testar persistência dos leads e notificações por e-mail e WhatsApp",
+        "stage": "BUILD; obrigatoriamente antes de publicar formulário",
+        "recipient": {
+          "name": "Maninha",
+          "whatsapp": "+5585985741485",
+          "email": "jackson.denis@live.com"
+        }
+      },
+      {
+        "item": "Confirmar cidade/UF e rota/localizador",
+        "stage": "BEFORE_MAP_PUBLICATION",
+        "fallback": "endereço textual sem mapa até confirmação"
+      },
+      {
+        "item": "Definir política de privacidade e requisitos LGPD",
+        "stage": "BEFORE_FORM_PUBLICATION"
+      },
+      {
+        "item": "Revisar documentação/regulamento e condições de divulgação do sorteio",
+        "stage": "BEFORE_PUBLICATION",
+        "status": "NOT_VERIFIED; user asked to skip review for now"
+      },
+      {
+        "item": "Incluir logos patrocinadores",
+        "stage": "RELEASE_2",
+        "fallback": "seção e item do menu ocultos"
+      },
+      {
+        "item": "Conferir acesso à conta do WhatsApp Business e templates de notificação",
+        "stage": "BUILD/BEFORE_FORM_PUBLICATION"
+      },
+      {
+        "item": "Testar Hero e cards em mobile 390px real",
+        "stage": "AUDIT"
+      },
+      {
+        "item": "Confirmar seções de programação/redes sociais para inclusão",
+        "stage": "OPTIONAL"
+      }
+    ],
+    "outputNext": "Handoff criativo .factory para Base_LP/Codex; implementação e QA separados"
+  },
+  "acceptanceCriteria": [
+    "Todos os dez prêmios aparecem com nomes e ordem da cartela confirmada.",
+    "Data, hora, local informado e preço R$ 10,00 aparecem coerentemente, sem cidade/UF inventadas.",
+    "CTA principal leva ao formulário; lead persiste e notifica por e-mail e WhatsApp em testes de integração.",
+    "Texto deixa claro que cadastro não confirma participação ou emissão de cartela.",
+    "Marcas e arquivos da identidade aprovada são usados sem distorção.",
+    "Exibição mobile revisada; labels, focos, botões e mensagens de erro/sucesso funcionam.",
+    "Patrocinadores só aparecem com marcas fornecidas/autorizadas.",
+    "Desempenho/SEO/acessibilidade e segurança de dados são auditados antes de publicar.",
+    "A copy e a navegação refletem evento aberto ao público geral, com tom acolhedor para famílias e comunidade.",
+    "A seção Como participar descreve venda pelo vendedor, recolhimento do canhoto físico e sorteio presencial, sem apresentar o formulário como participação no sorteio.",
+    "A comunicação não exige presença do ganhador no evento nem promete forma/prazo de entrega ainda não confirmados.",
+    "Como participar informa que o canhoto sorteado é retirado definitivamente da urna e que o limite é um prêmio por cartela, não necessariamente um por pessoa.",
+    "Em release 1 seção e navegação de patrocinadores não aparecem; podem ser habilitadas na segunda subida com logos reais.",
+    "Hero em camadas com figura recortada sem cortar rosto, contraste e CTA bem visíveis, fallback estático e bom desempenho em mobile.",
+    "Todos os 10 prêmios usam artes ilustrativas aprovadas, exibindo aviso de caráter ilustrativo.",
+    "Lead persistido uma única vez, alertas para Maninha por e-mail e WhatsApp testados e falha de canal gerenciada.",
+    "Informações não confirmadas (mapa, regulamento completo, programação detalhada) não são inventadas."
+  ],
+  "changeLog": [
+    {
+      "revision": "v4",
+      "change": "Canhoto vencedor retirado definitivamente e não reinserido; uma premiação máxima por cartela; Handoff gate atualizado para depender somente da revisão documental do sorteio."
+    },
+    {
+      "revision": "v3",
+      "change": "Presença do vencedor dispensada, contato posterior e campos do canhoto documentados."
+    },
+    {
+      "revision": "v2",
+      "change": "Público geral, famílias e comunidade confirmado."
+    },
+    {
+      "version": "v5",
+      "date": "2026-10-14",
+      "changes": [
+        "Premium Cinematic V2 aprovado; Hero em camadas e imagens ilustrativas dos 10 prêmios incorporados",
+        "Caminhos do pacote de assets V2 reconciliados com materiais originais",
+        "Maninha e destinos WhatsApp/e-mail incluídos",
+        "Patrocinadores reservados para release 2, ocultos no release 1",
+        "Regras do sorteio preservadas e revisão jurídica explicitamente não realizada",
+        "Ready for creative Handoff, pending publication gates"
+      ]
+    }
+  ],
+  "referenceDocuments": {
+    "sourcePrompt": "Texto colado.txt (fornecido pelo usuário, referência descritiva, não para copiar)",
+    "referenceURL": "https://advogadopremium.vercel.app/",
+    "referenceZIP": "Advogado Premium.zip (fornecido pelo usuário, não incluir código/ativos de terceiros no projeto)",
+    "approvedMockup": "assets/approved-originals/festa_da_árvore_2026_presença_que_transforma.png",
+    "v2LayerComposition": "assets/v2/preview/hero_composicao.jpg"
+  },
+  "legalAndCompliance": {
+    "userInstruction": "Pular análise jurídica na preparação criativa do Handoff.",
+    "reviewStatus": "NOT_VERIFIED",
+    "organizerClaim": "Documentação/validação declarada existente, não fornecida para análise.",
+    "publishGate": "Não afirmar legalidade ou autorização; revisar conteúdo promocional e requisitos aplicáveis antes da publicação; caso o regulamento final não esteja validado, não publicar afirmações de sorteio que sugiram autorização.",
+    "knownMechanics": "Canhoto recolhido pelo vendedor, urna física em 05/12/2026, sem presença obrigatória do ganhador, contato posterior, canhoto sorteado retirado definitivamente.",
+    "notDefined": [
+      "horário específico de apuração",
+      "regras para canhotos inválidos",
+      "prazos de contato/entrega",
+      "documentos para retirada dos prêmios",
+      "número da autorização, quando aplicável"
+    ]
+  }
+}
