@@ -25,7 +25,7 @@ test('ambiente local bloqueia indexação e aplica headers defensivos',async t=>
   assert.match(csp,/default-src 'self'/);
   assert.match(csp,/object-src 'none'/);
   assert.doesNotMatch(csp,/unsafe-inline|unsafe-eval/);
-  const nonce=nonceFromCsp(csp);assert.ok(nonce);assert.match(html,new RegExp(`nonce="${nonce}"`));
+  const nonce=nonceFromCsp(csp);assert.ok(nonce);assert.ok(html.includes(`nonce="${nonce}"`));
   assert.match(html,/content="noindex,nofollow" data-runtime-robots/);
   assert.match(html,/href="http:\/\/local\.test\/"/);
   assert.doesNotMatch(html,/\{\{(?:PUBLIC_ORIGIN|CSP_NONCE)\}\}/);

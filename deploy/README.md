@@ -2,6 +2,20 @@
 
 O servidor Node deve escutar somente em `127.0.0.1:4173`. O Nginx recebe HTTPS e encaminha as requisições. Indexação e coleta começam desativadas por segurança.
 
+> Na VPS atual, o caminho preferencial é `docker-compose.traefik.yml`, pois as portas 80/443 já são atendidas pelo Traefik na rede externa `n8n_default`. Os arquivos de Nginx/systemd abaixo permanecem como alternativa para outro servidor.
+
+## Deploy atual com Docker + Traefik
+
+```bash
+sudo git clone https://github.com/JacksonDenis/festa_da_arvore_LP.git /docker/festa-da-arvore
+cd /docker/festa-da-arvore
+sudo docker compose -f deploy/docker-compose.traefik.yml up -d --build
+sudo docker compose -f deploy/docker-compose.traefik.yml ps
+curl --fail https://festa-da-arvore.jacksondenis.tech/healthz
+```
+
+O container não roda como root, perde todas as capabilities, usa filesystem somente leitura e não publica portas diretamente. O Traefik emite e renova o certificado TLS.
+
 ## 1. Publicar o repositório
 
 O repositório ainda não possui commit nem remote. Revise os arquivos e então execute localmente:
